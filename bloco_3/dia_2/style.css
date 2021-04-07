@@ -1,0 +1,29 @@
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 65px;
+  color: orange;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Colors {
+  background-color: rgb(100, 187, 60);
+}
+
+.background {
+  background-color: red;
+}
+
+p {
+  font-weight: 600;
+  font-size: 48px;
+  font-style: italic;
+}
+
+.subtitle {
+  line-height: 20px;
+  text-decoration: rgb(100, 187, 60);
+}
