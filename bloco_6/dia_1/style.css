@@ -1,4 +1,29 @@
 #complete-name {
   text-align: center;
   background-color: rgb(198, 216, 248);
+  margin: 15px 0;
+}
+
+#email {
+  text-align: center;
+  background-color: rgb(198, 216, 248);
+  margin: 15px 0;
+}
+
+#CPF {
+  text-align: center;
+  background-color: rgb(198, 216, 248);
+  margin: 15px 0;
+}
+
+#endereco {
+  text-align: center;
+  background-color: rgb(198, 216, 248);
+  margin: 15px 0;
+}
+
+#cidade {
+  text-align: center;
+  background-color: rgb(198, 216, 248);
+  margin: 15px 0;
 }
