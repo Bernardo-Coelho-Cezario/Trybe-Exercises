@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+ <form action="" method="GET">
+   <fieldset>
+     <div>
+       <label for="complete-name">Nome:</label>
+       <input type="text" name="name-complete" id="complete-name" maxlength="40" required placeholder="Digite seu nome completo">
+     </div>
+     <div>
+       <label for="email">Email:</label>
+       <input type="text" name="email" id="email" maxlength="50" required placeholder="Digite seu e-mail">
+     </div>
+     <div>
+       <label for="CPF">CPF:</label>
+       <input type="text" name="CPF" id="CPF" maxlength="11" required placeholder="Digite seu CPF (Somente números)">
+     </div>
+     <div>
+       <label for="endereco">Endereço:</label>
+       <input type="text" name="endereco" id="endereco" maxlength="200" required placeholder="Digite seu endereço">
+     </div>
+     <div>
+         <label for="cidade">Cidade:</label>
+        <input type="text" name="cidade" id="cidade" maxlength="28" required placeholder="Digite o nome da sua cidade">
+     </div>
+     <div>
+      <label for="estado">Estado:</label>
+      <select name="estado" id="estado" required>
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+      </select>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Residência</legend>
+      <input type="radio" name="morada" id="morada1" required>
+      <label for="morada1">Casa</label>
+
+      <input type="radio" name="morada" id="morada2"required>
+      <label for="morada2">Apartamento</label>
+   </fieldset>
+    <div>
+      <label for="password">Senha:</label>
+      <input type="word" name="password" id="password" placeholder="Digite sua senha" required>
+
+      <label for="password-repeat">Confirmar senha:</label>
+      <input type="password" name="password" id="password-repeat" placeholder="Confirme sua senha" required>
+    </div>
+    <div>
+      <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+    </div>
+   <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
